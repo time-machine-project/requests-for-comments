@@ -10,7 +10,7 @@ header-includes:
 output: pdf_document
 ---
 
-## Motivation
+# Motivation
 
 Reaching consensus on the technology options to follow in a programme as large as Time Machine is a complex issue. To ensure the open development and evaluation of work, a process inspired by the Request for Comments (RFC) that was used for the development of the Internet protocol[^wiki_rfc] will be adapted to the needs of Time Machine. Time Machine Requests for Comments will be freely accessible publications, identified with a unique ID, constituting the main process for establishing rules, recommendations, core architectural choices for the Time Machine components. Their basic principles are:
 
@@ -22,11 +22,11 @@ Reaching consensus on the technology options to follow in a programme as large a
 + *Scope* – TM RFCs are designed contribution and implementation solutions solving practical problems. TM RFC are not research papers and may not necessarily contain experimental evidence.
 + *Self-defining process* – Like for the development of the Internet, TM RFC could be the main process for establishing TM Rules, TM Recommendations, TM Standard Metrics but also the processes and roles for managing TM RFCs themselves
 
-## Proposed workflow
+# Proposed workflow
 
 The Request for comments workflow is inspired by *forking*[^github_forking], a workflow, that "is most often seen in public open source projects"[^bitbucket_forking].
 
-### Preliminary notes
+## Preliminary notes
 
 + The drafted and released RFCs are written in the extended *Markdown*[^orig_markdown_syntax] syntax used by *Pandoc*[^pandoc_markdown], a tool to convert texts between different formats.
 
@@ -38,7 +38,7 @@ The Request for comments workflow is inspired by *forking*[^github_forking], a w
 
 + During publication, all documents that are published up to this point in time are converted into PDF documents, amended with the time of conversion and the release number and stored in the form of a GitHub *Release*[^github_release] with all documents attached as a single zip archive.
 
-### Workflow description
+## Workflow description
 
 1. The TM team prepares an initial version for a new RFC
 
