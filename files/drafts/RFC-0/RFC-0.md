@@ -22,9 +22,12 @@ Reaching consensus on the technology options to follow in a programme as large a
 + *Scope* – TM RFCs are designed contribution and implementation solutions solving practical problems. TM RFC are not research papers and may not necessarily contain experimental evidence.
 + *Self-defining process* – Like for the development of the Internet, TM RFC could be the main process for establishing TM Rules, TM Recommendations, TM Standard Metrics but also the processes and roles for managing TM RFCs themselves
 
+
 # Proposed workflow
 
 The Request for comments workflow is inspired by *forking*[^github_forking], a workflow, that "is most often seen in public open source projects"[^bitbucket_forking].
+
+The choice of this solution is motivated by the possibility of scaling the number of users and contributions int time. It is likely that RFC editions will ultimatelly be like maintening a large source code base. 
 
 ## Preliminary notes
 
@@ -49,6 +52,7 @@ The Request for comments workflow is inspired by *forking*[^github_forking], a w
 4. After the drafting period has passed, the draft file will be moved from `files/drafts` to `files/releases` and the release version will be prepared. For this, the list of authors in the draft document will be updated to contain all persons that contributed to the release.
 
 5. The master branch will be merged into a release branch named `[RFC-id]_release` and on merging an automated script will create the github release as well as the compressed archive file containing all published RFC releases as PDF documents.
+
 
 [^wiki_rfc]: <https://en.wikipedia.org/wiki/Request_for_Comments>
 [^github_forking]: <https://guides.github.com/activities/forking/>
