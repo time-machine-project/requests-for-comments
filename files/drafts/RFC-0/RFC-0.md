@@ -4,6 +4,7 @@ subtitle: 'RFC on RFCs'
 author:
 - Andreas Maier
 - Daniel Jeller
+- Frédéric Kaplan
 header-includes:
 - \usepackage{fancyhdr}
 - \pagestyle{fancy}
