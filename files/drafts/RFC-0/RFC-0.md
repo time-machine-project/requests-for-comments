@@ -24,9 +24,12 @@ Reaching consensus on the technology options to follow in a programme as large a
 + *Scope* – TM RFCs are designed contribution and implementation solutions solving practical problems. TM RFC are not research papers and may not necessarily contain experimental evidence.
 + *Self-defining process* – Like for the development of the Internet, TM RFC could be the main process for establishing TM Rules, TM Recommendations, TM Standard Metrics but also the processes and roles for managing TM RFCs themselves
 
+
 # Proposed workflow
 
 The Request for comments workflow is inspired by *forking*[^github_forking], a workflow, that "is most often seen in public open source projects"[^bitbucket_forking].
+
+The choice of this solution is motivated by the possibility of scaling the number of users and contributions int time. It is likely that RFC editions will ultimatelly be like maintening a large source code base. 
 
 ## Preliminary notes
 
@@ -49,6 +52,7 @@ The Request for comments workflow is inspired by *forking*[^github_forking], a w
 5. The release candidate will be submitted to *openreview.net*[^openreview_timemachine] for open and public peer-review to the scientific community. We suggest this step in addition to Step 4, to enable scientists to provide feedback that have less technical background and are challenged by the using specialised tools such as GitHub and Markdown. This review step shall be concluded after rigorous peer-review to ensure the scientific rigor of the work and may also lead to a rejection of the RFC. Decisions are to be found within the time frame of 3 months. The reviewers for each RFC are selected by the TM team which is appointed by the TMO Board. Once the RFC is posted on openreview.net reviewers may also actively approach the TM team if they are eager to review the RFC. Reviewers, however, need to be free of conflict of interest and may not have contributed to the RFC themselves as member of the RFC team or author of the RFC.
 6. Successful RFCs are moved from `files/candidates` to `files/releases` and the candidate branch will be merged into a release branch named `[rfc-number]_release`. This will again trigger the creation of a GitHub release and the conversion of the documents into PDF files.
 7. Finally, the finished release branch will be merged back into master to prepare for new RFCs.
+
 
 [^wiki_rfc]: <https://en.wikipedia.org/wiki/Request_for_Comments>
 [^github_forking]: <https://guides.github.com/activities/forking/>
