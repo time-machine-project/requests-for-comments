@@ -2,7 +2,9 @@
 title:  'RFC-0'
 subtitle: 'RFC on RFCs'
 author:
+- Andreas Maier
 - Daniel Jeller
+- Frédéric Kaplan
 header-includes:
 - \usepackage{fancyhdr}
 - \pagestyle{fancy}
@@ -37,21 +39,19 @@ The choice of this solution is motivated by the possibility of scaling the numbe
 
 + Documents are prepared in directories and files named after the RFC number, for example `RFC-0/RFC-0.md`.
 
-+ Drafts are stored in the `files/drafts` folder, on publication they are moved to `files/releases/`.
++ Drafts are stored in the `files/drafts` folder, candidates in the `files/candidates` and published RFCs in the `files/releases/` folder.
 
-+ During publication, all documents that are published up to this point in time are converted into PDF documents, amended with the time of conversion and the release number and stored in the form of a GitHub *Release*[^github_release] with all documents attached as a single zip archive.
++ During candidate merging and final publication, all documents that are in the candidate stage or published up to this point in time are converted into PDF documents, amended with the time of conversion and the release number and stored in the form of a GitHub *Release*[^github_release] with all documents attached to a candidates and a releases zip file.
 
 ## Workflow description
 
-1. The TM team prepares an initial version for a new RFC
-
-2. It is published in a new draft document in the [files/drafts](files/drafts) folder using a new feature branch in the official repository (=*here*).
-
-3. Public *pull requests*[^github_pullrequest] and comments as well as feedback via GitHub *issues*[^github_issues] will be open for a set amount of time to give the community the opportunity to discuss the RFC and contribute to the final text. Pull requests can be merged by the TM team after favourable reviews by at least 4 reviewers.
-
-4. After the drafting period has passed, the draft file will be moved from `files/drafts` to `files/releases` and the release version will be prepared. For this, the list of authors in the draft document will be updated to contain all persons that contributed to the release.
-
-5. The master branch will be merged into a release branch named `[RFC-id]_release` and on merging an automated script will create the github release as well as the compressed archive file containing all published RFC releases as PDF documents.
+1. The RFC team is appointed by the Time Machine Organisation Board. Proposals to form an RFC Team to create a new RFC or  update an existing RFC can be done to the Time Machine Organization at any time.
+2. The RFC team prepares an initial version for a new RFC and publishes it as a new draft document in the [`files/drafts`](files/drafts) folder on a new branch that follows the naming scheme `[rfc-number]_draft` in the official repository (=*here*).
+3. Public *pull requests*[^github_pullrequest] and comments as well as feedback via GitHub *issues*[^github_issues] will be open for a set amount of time to give the community the opportunity to discuss the RFC and contribute to the final text. Pull requests modifying the draft can be merged by the RFC team after favourable reviews by at least 4 reviewers.
+4. After the drafting period is finished and all open pull requests have been either merged or closed the draft document is moved to the [`files/candidate`](files/candidate) folder and merged in a new branch that follows the naming scheme `[rfc-number]_candidate`. This triggers the creation of a candidate GitHub release (not to be confused with the final public release of a finished RFC) and the conversion and publishing of PDF files as attachments to the release.
+5. The release candidate will be submitted to *openreview.net*[^openreview_timemachine] for open and public peer-review to the scientific community. We suggest this step in addition to Step 4, to enable scientists to provide feedback that have less technical background and are challenged by the using specialised tools such as GitHub and Markdown. This review step shall be concluded after rigorous peer-review to ensure the scientific rigor of the work and may also lead to a rejection of the RFC. Decisions are to be found within the time frame of 3 months. The reviewers for each RFC are selected by the TM team which is appointed by the TMO Board. Once the RFC is posted on openreview.net reviewers may also actively approach the TM team if they are eager to review the RFC. Reviewers, however, need to be free of conflict of interest and may not have contributed to the RFC themselves as member of the RFC team or author of the RFC.
+6. Successful RFCs are moved from `files/candidates` to `files/releases` and the candidate branch will be merged into a release branch named `[rfc-number]_release`. This will again trigger the creation of a GitHub release and the conversion of the documents into PDF files.
+7. Finally, the finished release branch will be merged back into master to prepare for new RFCs.
 
 
 [^wiki_rfc]: <https://en.wikipedia.org/wiki/Request_for_Comments>
@@ -62,3 +62,4 @@ The choice of this solution is motivated by the possibility of scaling the numbe
 [^github_release]: <https://help.github.com/en/github/administering-a-repository/about-releases>
 [^github_pullrequest]: <https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests>
 [^github_issues]: <https://guides.github.com/features/issues/>
+[^openreview_timemachine]: <https://openreview.net/group?id=TimeMachine.eu/RFC>
