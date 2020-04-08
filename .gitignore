@@ -1,3 +1,7 @@
+# Folders
 .vscode
 .devcontainer
 output
+
+# Files
+*.pdf
