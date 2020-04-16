@@ -8,6 +8,6 @@ find $inpath -name '*.md' -print0 |
         cd $(dirname "$file") 
         name=$(basename "$file" .md)
         sed -i "s/-release-version-/$VERSION - $(date '+%Y-%m-%d')/" $file
-        pandoc -s -F pandoc-mermaid -i "$name".md -o "$name".pdf $file
+        pandoc -s -F pandoc-mermaid -i "$name".md -o "$name".pdf
         mv "$name".pdf $outpath
     done
