@@ -15,7 +15,7 @@ jobs:
     - uses: rlespinasse/github-slug-action@master
 
     - name: Create version number
-      run: echo ::set-env name=VERSION::draft_$(echo ${{ env.GITHUB_SHA_SHORT }})
+      run: echo ::set-env name=VERSION::draft_${{ env.GITHUB_SHA_SHORT }}
     
     - name: Build the Docker image that creates the RFC-PDFs
       run: docker build $GITHUB_WORKSPACE/build -t time-machine-project/publish_pdfs
