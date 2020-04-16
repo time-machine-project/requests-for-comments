@@ -1,9 +1,9 @@
-name: Create a release when pushing to master.
+name: Create a release when pushing to a release branch.
 
 on:
   push:
     branches:
-      - '*_release'
+      - '*_release*'
 
 jobs:
   build:
