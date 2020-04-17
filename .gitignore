@@ -7,3 +7,5 @@ output
 *.pdf
 
 mermaid-images
+
+.DS_Store
