@@ -13,6 +13,7 @@ This repository is the main location to work on and release the finalized Time M
 | RFC-0002 | RFC on RFC Tree                |
 | RFC-0003 | RFC on RFC Platform            |
 | RFC-0004 | RFC on RFC Editorial Committee |
+| RFC-0005 | RFC on Local Time Machines     |
 
 ## Current open drafts
 
