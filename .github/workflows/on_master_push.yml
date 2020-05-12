@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - uses: rlespinasse/github-slug-action@master
+    - uses: rlespinasse/github-slug-action@v2.x
 
     - name: Create version number
       run: echo ::set-env name=VERSION::draft-${{ env.GITHUB_SHA_SHORT }}
@@ -26,10 +26,7 @@ jobs:
     - name: Create the draft PDFs
       run: docker run -e VERSION=${{ env.VERSION }} -v $GITHUB_WORKSPACE/files/drafts:/opt/input -v $GITHUB_WORKSPACE/drafts:/opt/output time-machine-project/publish_pdfs
 
-    - name: Zip the draft PDFs
-      run: zip -r -j drafts.zip drafts
-
-    - uses: actions/upload-artifact@v1
+    - uses: actions/upload-artifact@v2
       with:
-        name: drafts
+        name: draft-pdf-files
         path: drafts

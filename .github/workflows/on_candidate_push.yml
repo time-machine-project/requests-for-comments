@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - uses: rlespinasse/github-slug-action@master
+    - uses: rlespinasse/github-slug-action@v2.x
 
     - name: Create version number
       run: echo ::set-env name=VERSION::$(echo ${{ env.GITHUB_SHA_SHORT }})
