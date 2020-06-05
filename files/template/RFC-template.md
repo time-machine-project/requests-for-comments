@@ -7,6 +7,7 @@ author:
 header-includes:
 - \usepackage{fancyhdr}
 - \pagestyle{fancy}
+- \fancyhead[R]{}
 - \fancyfoot[L]{-release-version-}
 output: pdf_document
 ---
