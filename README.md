@@ -2,7 +2,7 @@
 
 # Requests for Comments
 
-This repository is the main location to work on and release the finalized Time Machine *Request for Comments*. Currently, the initial draft of the RFC process itself is being prepared in form of the first 5 RFCs.
+This repository is the main location for work on and release of finalised Time Machine *Request for Comments*. Currently, the initial draft of the RFC process itself is being prepared in form of the first 5 RFCs.
 
 ## Drafts in preparation
 
