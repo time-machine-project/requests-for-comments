@@ -7,6 +7,7 @@ author:
 header-includes:
 - \usepackage{fancyhdr}
 - \pagestyle{fancy}
+- \fancyhead[R]{}
 - \fancyfoot[L]{-release-version-}
 output: pdf_document
 ---
@@ -30,6 +31,10 @@ An RFC document should always contain the YAML header, a *Motivation* section di
 The *Motivation* section is intended to show the general reason for the writing of the RFC. It should be concise.
 
 The *Q&A* section is intended to provide a view on the RFC from a different angle than the one of a traditional paper on a subject. It gives RFC writers the possibility to test their main structures, methods and drawbacks from the point of view of outside readers of the document. It should follow the general form outlined below in the q&a section of this template file.
+
+# TM Glossary
+
+Terms that are of special significance to the Time Machine must be written in **bold** on their first usage in an RFC document. Definitions and important terms are listed in *RFC-0001 on RFC Glossary*.
 
 # Markdown
 
