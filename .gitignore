@@ -1,0 +1,11 @@
+# Folders
+.vscode
+.devcontainer
+output
+
+# Files
+*.pdf
+
+mermaid-images
+
+.DS_Store
