@@ -16,9 +16,9 @@ This repository is the main location for work on and release of finalised Time M
 
 ## Current open drafts
 
-| ID       | Contribution deadline | Pull Request URL                                                                |
-| -------- | --------------------- | ------------------------------------------------------------------------------- |
-| RFC-0000 | 2020-07-21            | [PR #20](https://github.com/time-machine-project/requests-for-comments/pull/20) |
+| ID       | Contribution deadline | Public Discussion URL                                                                     |
+| -------- | --------------------- | ----------------------------------------------------------------------------------------- |
+| RFC-0000 | 2020-07-21            | [Pull Request #20](https://github.com/time-machine-project/requests-for-comments/pull/20) |
 
 ## Current open candidates
 
