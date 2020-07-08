@@ -2,22 +2,28 @@
 
 # Requests for Comments
 
-This repository is the main location for work on and release of finalised Time Machine *Request for Comments*. The workflow is currently being drafted.
+This repository is the main location for work on and release of finalised Time Machine *Request for Comments*.
 
 ## Drafts in preparation
 
-| ID  | Title |
-| --- | ----- |
+| ID       | Title                              |
+| -------- | ---------------------------------- |
+| RFC-0001 | Time Machine Glossary              |
+| RFC-0002 | RFC on RFC Tree                    |
+| RFC-0003 | RFC on RFC Platform                |
+| RFC-0004 | RFC on the RFC Editorial Committee |
+| RFC-0005 | RFC on LTM                         |
 
 ## Current open drafts
 
-| ID  | File | Contribution deadline |
-| --- | ---- | --------------------- |
+| ID       | Contribution deadline | Pull Request URL                                                                |
+| -------- | --------------------- | ------------------------------------------------------------------------------- |
+| RFC-0000 | 2020-07-21            | [PR #20](https://github.com/time-machine-project/requests-for-comments/pull/20) |
 
 ## Current open candidates
 
-| ID  | File | OpenReview | Review deadline |
-| --- | ---- | ---------- | --------------- |
+| ID  | Review deadline | Peer Review URL |
+| --- | --------------- | --------------- |
 
 ## Published releases
 
