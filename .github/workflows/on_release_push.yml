@@ -14,7 +14,7 @@ jobs:
 
     - uses: rlespinasse/github-slug-action@v2.x
     - name: Create version number
-      run: echo ::set-env name=VERSION::$(echo ${{ env.GITHUB_SHA_SHORT }})
+      run: echo ::set-env name=release-VERSION::$(echo ${{ env.GITHUB_SHA_SHORT }})
     
     - name: Build the Docker image that creates the RFC-PDFs
       run: docker build $GITHUB_WORKSPACE/build -t time-machine-project/publish_pdfs
@@ -26,7 +26,7 @@ jobs:
       run: docker run -e VERSION=${{ env.VERSION }} -v $GITHUB_WORKSPACE/files/releases:/opt/input -v $GITHUB_WORKSPACE/releases:/opt/output time-machine-project/publish_pdfs
 
     - name: Zip the release pdfs
-      run: zip -r -j released_rfcs.zip releases
+      run: zip -r -j rfc_release_pdf_files.zip releases
     
     - name: Create a new release
       id: create_release
@@ -46,6 +46,6 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: ./released_rfcs.zip
-        asset_name: released_rfcs.zip
+        asset_path: ./rfc_release_pdf_files.zip
+        asset_name: rfc_release_pdf_files.zip
         asset_content_type: application/zip
