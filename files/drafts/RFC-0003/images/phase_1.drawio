@@ -1,0 +1,86 @@
+<mxfile host="www.draw.io" modified="2020-05-12T13:38:15.172Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.45.0 Chrome/78.0.3904.130 Electron/7.2.4 Safari/537.36" etag="0Txd9UB4E6eh6P5pkCPl" version="13.1.0">
+    <diagram id="3p2-2auGFSwnh76s-7pO" name="Page-1">
+        <mxGraphModel dx="1478" dy="939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="m1TCr0GAa6EoVOasZEPr-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;noEdgeStyle=1;orthogonal=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontColor=#050505;" parent="1" source="m1TCr0GAa6EoVOasZEPr-2" target="m1TCr0GAa6EoVOasZEPr-8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="m1TCr0GAa6EoVOasZEPr-2" value="RFC Idea" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="29.998125" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="m1TCr0GAa6EoVOasZEPr-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;noEdgeStyle=1;orthogonal=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontColor=#050505;" parent="1" source="m1TCr0GAa6EoVOasZEPr-3" target="m1TCr0GAa6EoVOasZEPr-2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="m1TCr0GAa6EoVOasZEPr-3" value="Author" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.users.user;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="34.998125" width="46" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="m1TCr0GAa6EoVOasZEPr-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;noEdgeStyle=1;orthogonal=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontColor=#050505;" parent="1" source="m1TCr0GAa6EoVOasZEPr-5" target="m1TCr0GAa6EoVOasZEPr-10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="m1TCr0GAa6EoVOasZEPr-5" value="RFC Editorial Team" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.users.users;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="165" width="46" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="m1TCr0GAa6EoVOasZEPr-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;noEdgeStyle=1;orthogonal=1;dashed=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontColor=#050505;" parent="1" source="m1TCr0GAa6EoVOasZEPr-8" target="m1TCr0GAa6EoVOasZEPr-10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="m1TCr0GAa6EoVOasZEPr-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontColor=#050505;" parent="1" target="m1TCr0GAa6EoVOasZEPr-19" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="400" y="60" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m1TCr0GAa6EoVOasZEPr-8" value="Discussing idea with the RFC Editorial Team" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;strokeColor=#9673a6;fillColor=#e1d5e7;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="30" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="m1TCr0GAa6EoVOasZEPr-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;noEdgeStyle=1;orthogonal=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontColor=#050505;" parent="1" source="m1TCr0GAa6EoVOasZEPr-10" target="m1TCr0GAa6EoVOasZEPr-24" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="620" y="110" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m1TCr0GAa6EoVOasZEPr-10" value="RFC Identifier assignment" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="160" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="m1TCr0GAa6EoVOasZEPr-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontColor=#050505;" parent="1" source="m1TCr0GAa6EoVOasZEPr-19" target="m1TCr0GAa6EoVOasZEPr-22" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="m1TCr0GAa6EoVOasZEPr-19" value="Forking the official repo" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="30" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="m1TCr0GAa6EoVOasZEPr-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontColor=#050505;" parent="1" source="m1TCr0GAa6EoVOasZEPr-22" target="m1TCr0GAa6EoVOasZEPr-25" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="m1TCr0GAa6EoVOasZEPr-22" value="Working on the draft in the own repo" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="30" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="m1TCr0GAa6EoVOasZEPr-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontColor=#050505;" parent="1" source="m1TCr0GAa6EoVOasZEPr-24" target="m1TCr0GAa6EoVOasZEPr-27" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="m1TCr0GAa6EoVOasZEPr-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;strokeWidth=2;fontColor=#050505;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;" parent="1" source="m1TCr0GAa6EoVOasZEPr-24" target="m1TCr0GAa6EoVOasZEPr-19" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="m1TCr0GAa6EoVOasZEPr-24" value="&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;helvetica&amp;quot;&quot;&gt;Adding the draft file to the RFC drafts folder in the official repo&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="160" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="m1TCr0GAa6EoVOasZEPr-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontColor=#050505;" parent="1" source="m1TCr0GAa6EoVOasZEPr-25" target="m1TCr0GAa6EoVOasZEPr-27" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="m1TCr0GAa6EoVOasZEPr-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontColor=#050505;" parent="1" source="m1TCr0GAa6EoVOasZEPr-25" target="m1TCr0GAa6EoVOasZEPr-27" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="m1TCr0GAa6EoVOasZEPr-25" value="Create pull request to the official repo" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="30" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="m1TCr0GAa6EoVOasZEPr-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontColor=#050505;" parent="1" source="m1TCr0GAa6EoVOasZEPr-27" target="m1TCr0GAa6EoVOasZEPr-31" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="m1TCr0GAa6EoVOasZEPr-27" value="Reviewing the pull request" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="160" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="m1TCr0GAa6EoVOasZEPr-31" value="Merging the draft pull request in the official repo" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="920" y="160" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
