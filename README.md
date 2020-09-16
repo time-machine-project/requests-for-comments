@@ -16,14 +16,15 @@ This repository is the main location for work on and release of finalised Time M
 
 ## Current open drafts
 
-| ID       | Contribution deadline | Public Discussion URL                                                                     |
-| -------- | --------------------- | ----------------------------------------------------------------------------------------- |
+| ID  | Contribution deadline | Public Discussion URL |
+| --- | --------------------- | --------------------- |
+
 
 ## Current open candidates
 
-| ID       | Review deadline | Release                                                                                                             | Peer Review URL |
-| -------- | --------------- | ------------------------------------------------------------------------------------------------------------------- | --------------- |
-| RFC-0000 | 2020-08-14      | [candidate-76fa99f7](https://github.com/time-machine-project/requests-for-comments/releases/tag/candidate-76fa99f7) | [OpenReview.net](https://openreview.net/forum?id=5M3mFneb6de)                |
+| ID  | Review deadline | Release | Peer Review URL |
+| --- | --------------- | ------- | --------------- |
+
 
 ## Published releases
 
