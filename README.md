@@ -8,6 +8,7 @@ This repository is the main location for work on and release of finalised Time M
 
 | ID       | Title                              |
 | -------- | ---------------------------------- |
+| RFC-0000 | RFC on RFCs                        |
 | RFC-0001 | Time Machine Glossary              |
 | RFC-0002 | RFC on RFC Tree                    |
 | RFC-0003 | RFC on RFC Platform                |
