@@ -6,26 +6,24 @@ This repository is the main location for work on and release of finalised Time M
 
 ## Drafts in preparation
 
-| ID       | Title                              |
-| -------- | ---------------------------------- |
-| RFC-0000 | RFC on RFCs                        |
-| RFC-0001 | Time Machine Glossary              |
-| RFC-0002 | RFC on RFC Tree                    |
-| RFC-0003 | RFC on RFC Platform                |
-| RFC-0004 | RFC on the RFC Editorial Committee |
-| RFC-0005 | RFC on LTM                         |
+| ID       | Title                              | Draft pull request                                                                               |
+| -------- | ---------------------------------- | ------------------------------------------------------------------------------------------------ |
+| RFC-0004 | RFC on the RFC Editorial Committee | [New version of RFC-0004](https://github.com/time-machine-project/requests-for-comments/pull/31) |
+| RFC-0005 | RFC on LTM                         | [Current draft of RFC5](https://github.com/time-machine-project/requests-for-comments/pull/32)   |
 
 ## Current open drafts
 
-| ID  | Contribution deadline | Public Discussion URL |
-| --- | --------------------- | --------------------- |
-
+| ID       | Contribution deadline | Main file                                        |
+| -------- | --------------------- | ------------------------------------------------ |
+| RFC-0000 | 2020-11-08            | [RFC-0000.md](files/drafts/RFC-0000/RFC-0000.md) |
+| RFC-0001 | 2020-11-08            | [RFC-0001.md](files/drafts/RFC-0001/RFC-0001.md) |
+| RFC-0002 | 2020-11-08            | [RFC-0002.md](files/drafts/RFC-0002/RFC-0002.md) |
+| RFC-0003 | 2020-11-08            | [RFC-0003.md](files/drafts/RFC-0003/RFC-0003.md) |
 
 ## Current open candidates
 
 | ID  | Review deadline | Release | Peer Review URL |
 | --- | --------------- | ------- | --------------- |
-
 
 ## Published releases
 
