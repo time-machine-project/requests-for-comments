@@ -48,11 +48,11 @@ RFCs are released as PDF documents. While it is possible to set hyperlinks in Ma
 
 It is possible to use the different ways to create table using Pandoc markdown[^pandoc_tables]. The following example uses the simple syntax:
 
-  Right     Left     Center     Default
--------     ------ ----------   -------
-     12     12        12            12
-    123     123       123          123
-      1     1          1             1
+Left    Right   Center   Default
+------ ------ ---------- -------
+12         12   12         12
+123       123   123        123
+1           1   1          1
 
 Table:  Demonstration of simple table syntax.
 
