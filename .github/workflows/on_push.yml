@@ -7,23 +7,28 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
-    - uses: rlespinasse/github-slug-action@v2.x
+      - uses: rlespinasse/github-slug-action@v2.x
 
-    - name: Create version number
-      run: echo ::set-env name=VERSION::draft-${{ env.GITHUB_SHA_SHORT }}
-    
-    - name: Build the Docker image that creates the RFC-PDFs
-      run: docker build $GITHUB_WORKSPACE/build -t time-machine-project/publish_pdfs
+      - name: Create version number
+        run: echo "VERSION=draft-${{ env.GITHUB_SHA_SHORT }}" >> $GITHUB_ENV
 
-    - name: Create the output directories
-      run:  mkdir -p drafts
-    
-    - name: Create the draft PDFs
-      run: docker run -e VERSION=${{ env.VERSION }} -v $GITHUB_WORKSPACE/files/drafts:/opt/input -v $GITHUB_WORKSPACE/drafts:/opt/output time-machine-project/publish_pdfs
+      - name: Build the Docker image that creates the RFC-PDFs
+        run:
+          docker build $GITHUB_WORKSPACE/build -t
+          time-machine-project/publish_pdfs
 
-    - uses: actions/upload-artifact@v2
-      with:
-        name: rfc_draft_pdf_files
-        path: drafts
+      - name: Create the output directories
+        run: mkdir -p drafts
+
+      - name: Create the draft PDFs
+        run:
+          docker run -e VERSION=${{ env.VERSION }} -v
+          $GITHUB_WORKSPACE/files/drafts:/opt/input -v
+          $GITHUB_WORKSPACE/drafts:/opt/output time-machine-project/publish_pdfs
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: rfc_draft_pdf_files
+          path: drafts
