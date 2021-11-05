@@ -6,9 +6,9 @@ version_text=${VERSION:=custom-build}
 
 find $inpath -name '*.md' -print0 |
 	while IFS= read -r -d '' file; do
-		"cd $(dirname "$file")"
+		cd $(dirname "$file")
 		mkdir -p "$outpath"/build
-		cp -R ./* "$outpath"/build
+		cp -R * "$outpath"/build
 		cd "$outpath"/build || exit
 		name=$(basename "$file" .md)
 		echo "building: $version_text $name"

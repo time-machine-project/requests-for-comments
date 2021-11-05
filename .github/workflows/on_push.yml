@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: rlespinasse/github-slug-action@v2.x
+      - uses: rlespinasse/github-slug-action@v3.x
 
       - name: Create version number
         run: echo "VERSION=draft-${{ env.GITHUB_SHA_SHORT }}" >> $GITHUB_ENV
