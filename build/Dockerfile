@@ -13,10 +13,10 @@ RUN apk update && apk upgrade && apk add --no-cache \
     ca-certificates \
     ttf-freefont
 
-COPY ./convert_to_pdf.sh /opt/script/
+COPY ./convert_single.sh /opt/script/
 
-RUN dos2unix /opt/script/convert_to_pdf.sh
+RUN dos2unix /opt/script/convert_single.sh
 
-RUN chmod +x /opt/script/convert_to_pdf.sh
+RUN chmod +x /opt/script/convert_single.sh
 
-ENTRYPOINT ["/opt/script/convert_to_pdf.sh"]
+ENTRYPOINT ["/opt/script/convert_single.sh"]
