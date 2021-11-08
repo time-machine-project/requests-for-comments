@@ -124,7 +124,6 @@ you pushed a change to it.
 [^github_manage_action]:
     <https://help.github.com/en/actions/configuring-and-managing-workflows/managing-a-workflow-run#viewing-your-workflow-history>
 
-[^mermaid]: <https://mermaid-js.github.io/mermaid/#/>
 [^pandoc]: <https://pandoc.org/>
 [^pandoc_markdown]: <https://pandoc.org/MANUAL.html#pandocs-markdown>
 [^pandoc_tables]: <https://pandoc.org/MANUAL.html#tables>
