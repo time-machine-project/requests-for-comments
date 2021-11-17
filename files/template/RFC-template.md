@@ -22,7 +22,7 @@ limits of a markdown file.
 
 ## YAML-Header
 
-To aid the generation of the final release-PDF-files, this Markdown file
+To aid the generation of the final release-PDF-files, this markdown file
 contains a header in the `YAML`-format[^yaml]. Apart from other things it states
 the RFC-title and subtitle as well as information about the authors of the RFC.
 
@@ -55,15 +55,15 @@ terms are listed in _RFC-0001 on RFC Glossary_.
 
 # Markdown
 
-It is allowed to use the whole range of Markdown features as well as everything
+It is allowed to use the whole range of markdown features as well as everything
 supported by Pandoc out of the box. A good overview and introduction can be
-found in the Markdown specification itself[^daring_markdown] and the Pandoc user
+found in the markdown specification itself[^daring_markdown] and the Pandoc user
 documentation[^pandoc_markdown].
 
 ## Hyperlinks
 
 RFCs are released as PDF documents. While it is possible to set hyperlinks in
-Markdown that will also work in PDF documents it is advised to add the actual
+markdown that will also work in PDF documents it is advised to add the actual
 links in footnotes. This way they can be easily read. Footnotes (similar to the
 one in the previous paragraph can be created by adding `[^footnote_name]` where
 the footnote is to be placed and `[^footnote_name]: Content of the footnote` at
@@ -88,7 +88,7 @@ Table: Demonstration of simple table syntax.
 It is possible to include images. They should be added in an `images` folder
 directly next to the markdown document. In the text they are referenced like
 this: `![Image caption](./images/image_name_including_file_ending.png)`. The
-path is relative to the location of the Markdown file.
+path is relative to the location of the markdown file.
 
 # Q&A
 
@@ -108,7 +108,7 @@ implications for other parts of the Time Machine.
 The PDF files are created by an automated process using _Pandoc_[^pandoc], a
 tool to convert between different text formats. It provides more extensive
 capabilities for text structuring and formatting (for instance footnotes). This
-additional parts are not understood by the GitHub Markdown parser and might be
+additional parts are not understood by the GitHub markdown parser and might be
 previewed differently by various markdown editors.
 
 ## Question: Where can I preview how my RFC document will look at the end?
