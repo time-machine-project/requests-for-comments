@@ -61,7 +61,7 @@ for md in $(find . -type f -name "*.md" -not -name "RFC-template.md" | sort | xa
 	sed -i 's/^#/##/g' "$md"
 	# Remove yaml block
 	sed -i '/^---/,/^\---/{/^---/!{/^\---/!d}}' "$md"
-	sed -i '/---/d' "$md"
+	sed -i '/^---/d' "$md"
 	# Insert rfc title heading and authors
 	sed -i "1s/^/# $number: $title$suffix\n\n$authors\n\n/" "$md"
 	# append content to joined markdown content
