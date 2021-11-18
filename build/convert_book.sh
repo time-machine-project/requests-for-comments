@@ -50,7 +50,7 @@ for md in $(find . -type f -name "*.md" -not -name "RFC-template.md" | sort | xa
 	if [[ $(find $inpath -type f -name "$(basename "$md")") == *"draft"* ]]; then
 		suffix=" [Draft]"
 	fi
-	title=$(grep -oP '(?<=^title: ").*?(?=\"$)' "$md")
+	title=$(grep '^title: ".*"' "$md" | sed -e 's/^title: "\(.*\)"/\1/')
 	number=$(basename "$md" .md)
 	authors=$(sed -n '/^author:/,/^\w/{/^author:/!{/^\w/!p}}' "$md" | sed "s/^  - //g" | paste -s -d"," - | sed 's/,/, /g')
 	# Transform existing headings to be one level lower
