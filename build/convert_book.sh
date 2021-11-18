@@ -31,9 +31,9 @@ cd "$tmppath" || exit
 read -r -d '' text <<EOM
 ---
 title: Time Machine Requests for Comments
-subtitle: Current state of the design documents
+subtitle: Rules, Recommendations and Core Architectural Choices for Time Machine
 author:
-  - The RFC writers
+  - Time Machine Organisation and the RFC writers
 documentclass: scrreprt
 classoption:
   - oneside
