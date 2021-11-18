@@ -11,10 +11,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: rlespinasse/github-slug-action@v3.x
-
       - name: Create version number
-        run: echo "VERSION=commit-${{ env.GITHUB_SHA_SHORT }}" >> $GITHUB_ENV
+        run: echo "VERSION=${{ github.event.release.tag_name }}" >> $GITHUB_ENV
 
       - name: Build the Docker image that creates the PDF
         run: docker build $GITHUB_WORKSPACE/build -f $GITHUB_WORKSPACE/build/Dockerfile.book -t time-machine-project/publish_book
