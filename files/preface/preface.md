@@ -3,9 +3,9 @@
 This document summarizes the efforts of the Time Machine _Request for Comments_
 effort. It is automatically created from the contents of the TM RFC
 repository[^tm_rfc_repo] and published following a loose semi-annual schedule
-with additional releases on important milestones. The content are created by the
+with additional releases on important milestones. All RFCs are written by the
 Time Machine RFC Team and Editorial Committee as well as all individual RFC
-authors.
+authors in a joint effort.
 
 -- _The Time Machine RFC Editorial Committee_
 
