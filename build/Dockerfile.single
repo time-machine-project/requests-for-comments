@@ -1,0 +1,22 @@
+FROM pandoc/latex:2.16
+
+RUN apk update && apk upgrade && apk add --no-cache \
+    bash \
+    dos2unix \
+    git \
+    python3 \
+    py3-pip \ 
+    nss \
+    freetype \
+    freetype-dev \
+    harfbuzz \
+    ca-certificates \
+    ttf-freefont
+
+COPY ./convert_single.sh /opt/script/
+
+RUN dos2unix /opt/script/convert_single.sh
+
+RUN chmod +x /opt/script/convert_single.sh
+
+ENTRYPOINT ["/opt/script/convert_single.sh"]

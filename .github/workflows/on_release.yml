@@ -1,0 +1,31 @@
+name: Compile and attach artifact to release on release publication
+
+on:
+  release:
+    types: [released]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Create version number
+        run: echo "VERSION=${{ github.event.release.tag_name }}" >> $GITHUB_ENV
+
+      - name: Build the Docker image that creates the PDF
+        run: docker build $GITHUB_WORKSPACE/build -f $GITHUB_WORKSPACE/build/Dockerfile.book -t time-machine-project/publish_book
+
+      - name: Create the output directory
+        run: mkdir -p out
+
+      - name: Create the PDF
+        run: docker run -e VERSION=${{ env.VERSION }} -v $GITHUB_WORKSPACE/files:/opt/input -v $GITHUB_WORKSPACE/out:/opt/output time-machine-project/publish_book
+
+      - name: Upload the artifacts
+        uses: alexellis/upload-assets@0.2.2
+        with:
+          asset_paths: '["./out/*.pdf"]'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

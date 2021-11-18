@@ -2,31 +2,22 @@
 
 # Requests for Comments
 
-This repository is the main location for work on and release of finalised Time Machine _Request for Comments_.
+This repository is the main location for work on and release of finalised Time
+Machine _Request for Comments_.
 
-## Drafts in preparation
+## RFCs in preparation
 
-| ID       | Title                              | Draft pull request                                                                               |
-| -------- | ---------------------------------- | ------------------------------------------------------------------------------------------------ |
-| RFC-0004 | RFC on the RFC Editorial Committee | [New version of RFC-0004](https://github.com/time-machine-project/requests-for-comments/pull/31) |
-| RFC-0005 | RFC on LTM                         | [Current draft of RFC5](https://github.com/time-machine-project/requests-for-comments/pull/32)   |
+| ID       | Title                                       | Draft file                                       | Draft pull request |
+| -------- | ------------------------------------------- | ------------------------------------------------ | ------------------ |
+| RFC-0033 | RFC on Map and Cadaster Processing pipeline | [RFC-0033.md](files/drafts/RFC-0000/RFC-0033.md) |                    |
 
-## Current open drafts
+## Published RFCs
 
-| ID       | Contribution deadline | Main file                                        |
-| -------- | --------------------- | ------------------------------------------------ |
-| RFC-0000 | 2020-11-08            | [RFC-0000.md](files/drafts/RFC-0000/RFC-0000.md) |
-| RFC-0001 | 2020-11-08            | [RFC-0001.md](files/drafts/RFC-0001/RFC-0001.md) |
-| RFC-0002 | 2020-11-08            | [RFC-0002.md](files/drafts/RFC-0002/RFC-0002.md) |
-| RFC-0003 | 2020-11-08            | [RFC-0003.md](files/drafts/RFC-0003/RFC-0003.md) |
-
-## Current open candidates
-
-| ID  | Review deadline | Release | Peer Review URL |
-| --- | --------------- | ------- | --------------- |
-
-## Published releases
-
-| ID  | File | Release | Release date |
-| --- | ---- | ------- | ------------ |
-
+| ID       | File                                               |
+| -------- | -------------------------------------------------- |
+| RFC-0000 | [RFC-0000.md](files/releases/RFC-0000/RFC-0000.md) |
+| RFC-0001 | [RFC-0001.md](files/releases/RFC-0001/RFC-0001.md) |
+| RFC-0002 | [RFC-0002.md](files/releases/RFC-0002/RFC-0002.md) |
+| RFC-0003 | [RFC-0003.md](files/releases/RFC-0003/RFC-0003.md) |
+| RFC-0004 | [RFC-0004.md](files/releases/RFC-0004/RFC-0004.md) |
+| RFC-0005 | [RFC-0005.md](files/releases/RFC-0005/RFC-0005.md) |
