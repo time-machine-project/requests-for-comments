@@ -13,7 +13,7 @@ fi
 if [ -z "$version" ]; then
 	version=${VERSION:=custom-build}
 fi
-pdfpath="$outpath"/rfc-book_$(date '+%Y-%m-%d').pdf
+pdfpath="$outpath"/RFC-Book_"$version".pdf
 tmppath="$outpath"/tmp
 mkdir -p "$tmppath"
 
@@ -69,7 +69,7 @@ for md in $(find . -type f -name "*.md" -not -name "RFC-template.md" | sort | xa
 done
 
 # Build pdf
-pandoc -s -M date="Version $version - $(date "+%B%e, %Y")" --toc -f markdown -o "$pdfpath" <(echo "$text")
+pandoc -s -M date="$version" --toc -f markdown -o "$pdfpath" <(echo "$text")
 
 # Remove temporary files
 cd ..
