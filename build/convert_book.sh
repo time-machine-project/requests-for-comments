@@ -1,13 +1,17 @@
 #!/bin/bash
 
-# Initialize paths
+# Initialize variables
 inpath=$1
 outpath=$2
+version=$3
 if [ -z "$inpath" ]; then
 	inpath=/opt/input
 fi
 if [ -z "$outpath" ]; then
 	outpath=/opt/output
+fi
+if [ -z "$version" ]; then
+	version=${VERSION:=custom-build}
 fi
 pdfpath="$outpath"/rfc-book_$(date '+%Y-%m-%d').pdf
 tmppath="$outpath"/tmp
@@ -65,7 +69,7 @@ for md in $(find . -type f -name "*.md" -not -name "RFC-template.md" | sort | xa
 done
 
 # Build pdf
-pandoc -s -M date="$(date "+%B%e, %Y")" --toc -f markdown -o "$pdfpath" <(echo "$text")
+pandoc -s -M date="Version $version - $(date "+%B%e, %Y")" --toc -f markdown -o "$pdfpath" <(echo "$text")
 
 # Remove temporary files
 cd ..

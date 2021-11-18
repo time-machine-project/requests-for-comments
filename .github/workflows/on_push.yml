@@ -15,9 +15,7 @@ jobs:
         run: echo "VERSION=commit-${{ env.GITHUB_SHA_SHORT }}" >> $GITHUB_ENV
 
       - name: Build the Docker image that creates the RFC-PDFs
-        run:
-          docker build $GITHUB_WORKSPACE/build -t
-          time-machine-project/publish_pdfs
+        run: docker build $GITHUB_WORKSPACE/build -f $GITHUB_WORKSPACE/build/Dockerfile.single -t time-machine-project/publish_pdfs
 
       - name: Create the drafts output directories
         run: mkdir -p out/drafts
@@ -30,8 +28,7 @@ jobs:
           docker run -e VERSION=${{ env.VERSION }} -v $GITHUB_WORKSPACE/files/drafts:/opt/input -v $GITHUB_WORKSPACE/out/drafts:/opt/output time-machine-project/publish_pdfs
 
       - name: Create the release PDFs
-        run:
-          docker run -e VERSION=${{ env.VERSION }} -v $GITHUB_WORKSPACE/files/releases:/opt/input -v $GITHUB_WORKSPACE/out/releases:/opt/output time-machine-project/publish_pdfs
+        run: docker run -e VERSION=${{ env.VERSION }} -v $GITHUB_WORKSPACE/files/releases:/opt/input -v $GITHUB_WORKSPACE/out/releases:/opt/output time-machine-project/publish_pdfs
 
       - uses: actions/upload-artifact@v2
         with:
