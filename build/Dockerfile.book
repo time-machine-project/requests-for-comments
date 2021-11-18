@@ -1,4 +1,4 @@
-FROM pandoc/latex:2.9.2.1
+FROM pandoc/latex:2.16
 
 RUN apk update && apk upgrade && apk add --no-cache \
     bash \
