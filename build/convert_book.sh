@@ -43,8 +43,10 @@ output: pdf_document
 
 EOM
 
+text="$text"$'\n'$(cat preface.md)$'\n'
+
 # Transform individual markdown files sorted by their name, excluding the template
-for md in $(find . -type f -name "*.md" -not -name "RFC-template.md" | sort | xargs -n 1 basename); do
+for md in $(find . -type f -name "*.md" -not -name "RFC-template.md" -not -name "preface.md" | sort | xargs -n 1 basename); do
 	# Extract metadata
 	suffix=
 	if [[ $(find $inpath -type f -name "$(basename "$md")") == *"draft"* ]]; then
