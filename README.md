@@ -9,7 +9,7 @@ Machine _Request for Comments_.
 
 | ID       | Title                                       | Draft file                                       |
 | -------- | ------------------------------------------- | ------------------------------------------------ |
-| RFC-0033 | RFC on Map and Cadaster Processing pipeline | [RFC-0033.md](files/drafts/RFC-0000/RFC-0033.md) |
+| RFC-0033 | RFC on Map and Cadaster Processing pipeline | [RFC-0033.md](files/drafts/RFC-0033/RFC-0033.md) |
 
 ## Published RFCs
 
