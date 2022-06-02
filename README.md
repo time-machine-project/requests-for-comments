@@ -9,7 +9,7 @@ Machine _Request for Comments_.
 
 | ID       | Title                                            | Draft file                                       |
 | -------- | ------------------------------------------------ | ------------------------------------------------ |
-| RFC-0033 | RFC on Intellectual Property Rights and Licenses | [RFC-0008.md](files/drafts/RFC-0008/RFC-0008.md) |
+| RFC-0008 | RFC on Intellectual Property Rights and Licenses | [RFC-0008.md](files/drafts/RFC-0008/RFC-0008.md) |
 
 ## Published RFCs
 
