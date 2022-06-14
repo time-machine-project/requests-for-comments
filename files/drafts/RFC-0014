@@ -1,0 +1,78 @@
+---
+# Don't change this header section
+title: "RFC on Digitisation Priorities and Data Selection "
+subtitle: "Time Machine RFC-0014"
+author:
+  - Juha Henriksson
+header-includes:
+  - \usepackage{fancyhdr}
+  - \pagestyle{fancy}
+  - \fancyhead[R]{}
+  - \fancyfoot[L]{-release-version-}
+output: pdf_document
+---
+
+# Motivation
+
+A data selection model based on the identification of performance criteria will help Time Machine partners to focus on priority aspects and to take decisions accordingly. For reference, the National Information Standards Organisation (NISO) has already proposed a framework for guidance on Building Good Digital Collections[^NISO]. 
+
+# Digitisation plan
+
+Digitisation should be based on an overall strategy approved by the organisation's management, in order to ensure, for example, adequate resources and the long-term management of the digital objects. Digital collection builders should be able to refer to the mission statement of their organization and articulate how a proposed collection furthers or supports that mission [^NISO].
+
+The digitisation plan guides, among other things, the selection of material to be digitised, the order of digitisation, and working methods. The plan should also include a scheme how digitised instances will be made available. The organisation should be able to identify the target audience(s) for the digital collection, but also think about unexpected uses and users [^NISIO]. 
+
+The digitisation plan should be made for a longer period of time. However, according to the NISO principles, there are a few cases where a selection policy may not be required: digitisation on demand, when an organization is creating digital content based on end-user requests, and mass digitisation programs, which are often indiscriminate [^NISO]
+
+The use of open standards promotes, among other things, the interoperability of systems and data, the large-scale use of data, and the long-term preservation. It is therefore recommended that digitisation projects shall follow the European Interoperability Framework [^JOINUP].
+
+The quality and cost-effectiveness of digitisation can be improved by collaborating with other organizations. For instance, Digisam Guiding Principles [^DIGISAM] proposes that in order to avoid duplication of work and to facilitate collaboration, information on projects should be published openly for transparency.
+
+
+# Conditions for digitisation
+
+The digitisation plan should include an analysis of the availability of sufficient preconditions and resources to carry out the plan and to ensure that the digitized material can be preserved and made available also in the future. In addition to financial, human and technical resources, the digitisation plan and the order of digitisation are also affected by, for instance, issues related to the physical condition of the material, the quality of the descriptive metadata and the legal status of the material, such as:
+- Are there enough human and financial resources are available to digitize a sufficient amount of material? To make a digitisation project worthwhile requires a certain minimum volume of information. Otherwise, the research value will be too low to attract enough planned or potential users. [^LUCIDEA]
+- Are there any copyright restrictions on the material that either prevent the digitisation of the material or the use of it? Clarifying rights is often laborious, which takes up human resources from the actual digitization work. The digital preservation strategy will require the occasional re-mastering of the digital images (possibly onto new storage media) and this will also require permission from the copyright holder. [^TASICP] 
+- Are there GDPR restrictions? The General Data Protection Regulation [^EUR-LEX] regulates the processing of personal data that may be contained in the material itself or in the descriptive or technical metadata. GDPR regulations contain exemptions for cultural heritage organizations, but nevertheless contain restrictions on the processing of personal data of living people.
+- How much work is needed to improve the descriptive metadata to the level required for a digital  collection? Digital materials should be described so that a user can discover characteristics of the collection, including scope, format, restrictions on access, ownership, and any information significant for determining the collection’s authenticity, integrity, and interpretation [^NISO].
+
+- Is the material in good enough condition for digitisation or does it need conservation? Or is the original material so fragile that the process may damage it further?
+
+- Does the organisation have the necessary technical expertise and/or knowledge of the content in order to digitise a particular type of material, or are external resources required?
+
+
+# The selection criteria
+
+Digitisation usually has different goals, which can also be at least partially contradictory. For instance, a sapient balance must be found between digitising popular materials and providing a richer representation of the institution’s holdings. [^LUCIDEA] Therefore, making a digitisation plan requires careful consideration and comparison of different aspects. When making a digitisation plan, the following, for example, can be taken into account, when considering what material to select for digitization.
+- **Usage:** Is there an active, current audience for the materials? Or is current access to the original materials inadequate (e.g., owing to heavy use of popular items or to restricted access to fragile or costly items)? Will digitization attract enough new users to justify the cost? [^NEDCC]
+- **Protection:** Analogue material is fragile, so digitisation saves the original material from damage.
+
+- **Added value:** Digitisation opens up new possibilities. Automatic text or pattern recognition improves search capabilities. Linking entities increase research opportunities. New technologies such as 3D, 4D and virtual reality improve the attractiveness and usability of the material.
+
+- **Preservation:** The nature of analogue material is such that digitisation is the only way to ensure its long-term preservation and usability (e.g., audio and video stored on magnetic tapes).
+
+- **Uniqueness:** Are the objects rare or unique? Many unique institutional resources such as original photographs, archival materials, or grey literature such as university technical reports and conference proceedings, have not yet been digitised. 
+
+- **Provenance:** Provenance means that the full history of the material and its ownership, from its discovery or production to the present day, is known. A limited and and/or fragmented sample of material often have no wider cultural or research value. It is recommended to systematically digitize certain entity that has emerged as a result of a certain activity, and thus forms a unified provenance.
+
+- **Internal significance:** How does digitisation of materials contribute to organization’s own activities, both immediate and long-term, such as teaching and research?
+
+- **Exposure:** How much does digitisation of materials increase the visibility and significance of the organisation? How does it improve possibilities to get new funding?
+
+<!-- Footnote content. Only alphanumeric characters and underscores are allowed. Please keep alphabetical sorting -->
+
+[^DIGISAM]: https://digisam.se/wp-content/uploads/2014/08/Guiding%20principles%20for%20working%20with%20digital%20cultural%20heritage.pdf
+
+[^EUR-LEX]: https://eur-lex.europa.eu/eli/reg/2016/679/oj
+
+[^JOINUP]: https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/european-interoperability-framework-detail
+
+[^LUCIDEA]: https://lucidea.com/blog/selection-for-digitization/
+
+[^NEDCC]: https://www.nedcc.org/free-resources/preservation-leaflets/6.-reformatting/6.6-preservation-and-selection-for-digitization
+
+[^NISO]: https://www.niso.org/sites/default/files/2017-08/framework3.pdf
+
+[^TASICP]: https://web.archive.org/web/20060212114719/http://www.tasi.ac.uk/advice/managing/copyrights.html
+
