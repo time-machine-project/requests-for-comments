@@ -11,6 +11,7 @@ RUN apk update && apk upgrade && apk add --no-cache \
     freetype-dev \
     harfbuzz \
     ca-certificates \
+    texlive-latex-recommended \
     ttf-freefont
 
 COPY ./convert_book.sh /opt/script/
