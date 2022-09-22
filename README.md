@@ -25,7 +25,8 @@ Machine _Request for Comments_.
 
 ## License
 
-The content of this project itself is licensed under the
+The RFC documents, this means the content of the [files](./files) directory is
+licensed under the
 [Creative Commons Attribution 4.0 International license (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/),
-and the underlying source code used to format and display that content is
-licensed under the [MIT license](LICENSE.md).
+while all accompanying source code, for instance the code responsible for
+creating the RFC Book, is licensed under the [MIT license](./LICENSE.md).
