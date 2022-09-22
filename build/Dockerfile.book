@@ -1,4 +1,4 @@
-FROM pandoc/latex:2.16
+FROM pandoc/latex:2.19
 
 RUN apk update && apk upgrade && apk add --no-cache \
     bash \
@@ -12,6 +12,8 @@ RUN apk update && apk upgrade && apk add --no-cache \
     harfbuzz \
     ca-certificates \
     ttf-freefont
+
+RUN tlmgr install koma-script
 
 COPY ./convert_book.sh /opt/script/
 

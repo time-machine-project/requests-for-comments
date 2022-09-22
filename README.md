@@ -22,3 +22,11 @@ Machine _Request for Comments_.
 | RFC-0004 | RFC on the RFC Editorial Committee          | [RFC-0004.md](files/releases/RFC-0004/RFC-0004.md) |
 | RFC-0005 | RFC on LTM                                  | [RFC-0005.md](files/releases/RFC-0005/RFC-0005.md) |
 | RFC-0033 | RFC on Map and Cadaster Processing pipeline | [RFC-0033.md](files/releases/RFC-0033/RFC-0033.md) |
+
+## License
+
+The RFC documents, this means the content of the [files](./files) directory is
+licensed under the
+[Creative Commons Attribution 4.0 International license (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/),
+while all accompanying source code, for instance the code responsible for
+creating the RFC Book, is licensed under the [MIT license](./LICENSE.md).

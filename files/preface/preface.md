@@ -9,4 +9,9 @@ authors in a joint effort.
 
 -- _The Time Machine RFC Editorial Committee_
 
+# License
+
+This document is licensed under the
+[Creative Commons Attribution 4.0 International license (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+
 [^tm_rfc_repo]: <https://github.com/time-machine-project/requests-for-comments>
