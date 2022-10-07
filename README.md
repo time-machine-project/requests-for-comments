@@ -7,9 +7,10 @@ Machine _Request for Comments_.
 
 ## RFCs in preparation
 
-| ID       | Title                                            | Draft file                                       |
-| -------- | ------------------------------------------------ | ------------------------------------------------ |
-| RFC-0008 | RFC on Intellectual Property Rights and Licenses | [RFC-0008.md](files/drafts/RFC-0008/RFC-0008.md) |
+| ID       | Title                                             | Draft file                                       |
+| -------- | ------------------------------------------------- | ------------------------------------------------ |
+| RFC-0008 | RFC on Intellectual Property Rights and Licenses  | [RFC-0008.md](files/drafts/RFC-0008/RFC-0008.md) |
+| RFC-0014 | RFC on Digitisation Priorities and Data Selection | [RFC-0014.md](files/drafts/RFC-0014/RFC-0014.md) |
 
 ## Published RFCs
 
