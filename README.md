@@ -10,7 +10,7 @@ Machine _Request for Comments_.
 | ID       | Title                                            | Draft file                                       |
 | -------- | ------------------------------------------------ | ------------------------------------------------ |
 | RFC-0008 | RFC on Intellectual Property Rights and Licenses | [RFC-0008.md](files/drafts/RFC-0008/RFC-0008.md) |
-| RFC-0034 | RFC on Audio Processing Pipeline                 | [RFC-0034.md](files/drafts/RFC-0008/RFC-0034.md) |
+| RFC-0034 | RFC on Audio Processing Pipeline                 | [RFC-0034.md](files/drafts/RFC-0034/RFC-0034.md) |
 
 ## Published RFCs
 
