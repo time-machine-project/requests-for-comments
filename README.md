@@ -10,9 +10,7 @@ Machine _Request for Comments_.
 | ID       | Title                                            | Draft file                                       |
 | -------- | ------------------------------------------------ | ------------------------------------------------ |
 | RFC-0008 | RFC on Intellectual Property Rights and Licenses | [RFC-0008.md](files/drafts/RFC-0008/RFC-0008.md) |
-| RFC-0034 | RFC on Audio Processing Pipeline                 | [RFC-0034.md](files/drafts/RFC-0034/RFC-0034.md) |
 | RFC-0035 | RFC on Video Processing Pipeline                 | [RFC-0035.md](files/drafts/RFC-0035/RFC-0035.md) |
-| RFC-0036 | RFC on Music Scores Pipeline                     | [RFC-0036.md](files/drafts/RFC-0036/RFC-0036.md) |
 | RFC-0069 | RFC on Time Machine Organisation (TMO)           | [RFC-0069.md](files/drafts/RFC-0069/RFC-0069.md) |
 
 ## Published RFCs
@@ -27,6 +25,8 @@ Machine _Request for Comments_.
 | RFC-0005 | RFC on LTM                                        | [RFC-0005.md](files/releases/RFC-0005/RFC-0005.md) |
 | RFC-0014 | RFC on Digitisation Priorities and Data Selection | [RFC-0014.md](files/releases/RFC-0014/RFC-0014.md) |
 | RFC-0033 | RFC on Map and Cadaster Processing pipeline       | [RFC-0033.md](files/releases/RFC-0033/RFC-0033.md) |
+| RFC-0034 | RFC on Audio Processing Pipeline                  | [RFC-0034.md](files/releases/RFC-0034/RFC-0034.md) |
+| RFC-0036 | RFC on Music Scores Pipeline                      | [RFC-0036.md](files/releases/RFC-0036/RFC-0036.md) |
 
 ## License
 
