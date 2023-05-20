@@ -13,6 +13,7 @@ Machine _Request for Comments_.
 | RFC-0035 | RFC on Video Processing Pipeline                 | [RFC-0035.md](files/drafts/RFC-0035/RFC-0035.md) |
 | RFC-0069 | RFC on Time Machine Organisation (TMO)           | [RFC-0069.md](files/drafts/RFC-0069/RFC-0069.md) |
 | RFC-0070 | RFC on Project Scouting Service                  | [RFC-0070.md](files/drafts/RFC-0070/RFC-0070.md) |
+| RFC-0071 | RFC on Time Machine Academies                    | [RFC-0071.md](files/drafts/RFC-0071/RFC-0071.md) |
 
 ## Published RFCs
 
