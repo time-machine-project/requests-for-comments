@@ -12,7 +12,6 @@ Machine _Request for Comments_.
 | RFC-0006 | RFC on Technical Charter                         | [RFC-0006.md](files/drafts/RFC-0006/RFC-0006.md) |
 | RFC-0007 | RFC on Vision Mission and Values Charter         | [RFC-0007.md](files/drafts/RFC-0007/RFC-0007.md) |
 | RFC-0008 | RFC on Intellectual Property Rights and Licenses | [RFC-0008.md](files/drafts/RFC-0008/RFC-0008.md) |
-| RFC-0069 | RFC on Time Machine Organisation (TMO)           | [RFC-0069.md](files/drafts/RFC-0069/RFC-0069.md) |
 | RFC-0070 | RFC on Project Scouting Service                  | [RFC-0070.md](files/drafts/RFC-0070/RFC-0070.md) |
 | RFC-0071 | RFC on Time Machine Academies                    | [RFC-0071.md](files/drafts/RFC-0071/RFC-0071.md) |
 
@@ -31,6 +30,7 @@ Machine _Request for Comments_.
 | RFC-0034 | RFC on Audio Processing Pipeline                  | [RFC-0034.md](files/releases/RFC-0034/RFC-0034.md) |
 | RFC-0035 | RFC on Video Processing Pipeline                  | [RFC-0035.md](files/releases/RFC-0035/RFC-0035.md) |
 | RFC-0036 | RFC on Music Scores Pipeline                      | [RFC-0036.md](files/releases/RFC-0036/RFC-0036.md) |
+| RFC-0069 | RFC on Time Machine Organisation (TMO)            | [RFC-0069.md](files/releases/RFC-0069/RFC-0069.md) |
 
 ## License
 
