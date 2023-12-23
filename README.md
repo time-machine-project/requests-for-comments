@@ -9,6 +9,7 @@ Machine _Request for Comments_.
 
 | ID       | Title                                            | Draft file                                       |
 | -------- | ------------------------------------------------ | ------------------------------------------------ |
+| RFC-0006 | RFC on Technical Charter                         | [RFC-0006.md](files/drafts/RFC-0006/RFC-0006.md) |
 | RFC-0007 | RFC on Vision Mission and Values Charter         | [RFC-0007.md](files/drafts/RFC-0007/RFC-0007.md) |
 | RFC-0008 | RFC on Intellectual Property Rights and Licenses | [RFC-0008.md](files/drafts/RFC-0008/RFC-0008.md) |
 | RFC-0069 | RFC on Time Machine Organisation (TMO)           | [RFC-0069.md](files/drafts/RFC-0069/RFC-0069.md) |
