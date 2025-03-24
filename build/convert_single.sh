@@ -13,6 +13,6 @@ find $inpath -name '*.md' -print0 |
 		name=$(basename "$file" .md)
 		echo "building: $version_text $name"
 		sed -i "s/-release-version-/$version_text - $(date '+%Y-%m-%d')/" ./"$name".md
-		pandoc -s -i ./"$name".md -o ../"$name".pdf
+		pandoc -s --pdf-engine=xelatex -i ./"$name".md -o ../"$name".pdf
 		rm -Rf "$outpath"/build
 	done
