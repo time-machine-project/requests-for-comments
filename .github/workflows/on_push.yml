@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: rlespinasse/github-slug-action@v3.x
+      - uses: rlespinasse/github-slug-action@v5
 
       - name: Create version number
         run: echo "VERSION=commit-${{ env.GITHUB_SHA_SHORT }}" >> $GITHUB_ENV
@@ -30,7 +30,7 @@ jobs:
       - name: Create the release PDFs
         run: docker run -e VERSION=${{ env.VERSION }} -v $GITHUB_WORKSPACE/files/releases:/opt/input -v $GITHUB_WORKSPACE/out/releases:/opt/output time-machine-project/publish_pdfs
 
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v4
         with:
           name: rfc_pdf_files
           path: out

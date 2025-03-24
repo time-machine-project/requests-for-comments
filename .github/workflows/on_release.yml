@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
       - name: Create version number
         run: echo "VERSION=${{ github.event.release.tag_name }}" >> $GITHUB_ENV
@@ -24,7 +24,7 @@ jobs:
         run: docker run -e VERSION=${{ env.VERSION }} -v $GITHUB_WORKSPACE/files:/opt/input -v $GITHUB_WORKSPACE/out:/opt/output time-machine-project/publish_book
 
       - name: Upload the artifacts
-        uses: alexellis/upload-assets@0.2.2
+        uses: alexellis/upload-assets@0.4.0
         with:
           asset_paths: '["./out/*.pdf"]'
         env:
