@@ -11,7 +11,8 @@ RUN apk update && apk upgrade && apk add --no-cache \
     freetype-dev \
     harfbuzz \
     ca-certificates \
-    ttf-freefont
+    ttf-freefont \
+    ttf-dejavu
 
 RUN tlmgr install koma-script
 

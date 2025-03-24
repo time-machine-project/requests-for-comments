@@ -71,7 +71,7 @@ for md in $(find . -type f -name "*.md" -not -name "RFC-template.md" -not -name 
 done
 
 # Build pdf
-pandoc -s -M date="Release $version - $(date "+%B %e, %Y")" --toc -f markdown -o "$pdfpath" <(echo "$text")
+pandoc -s --pdf-engine=xelatex -V mainfont="DejaVu Serif" -V sansfont="DejaVu Sans" -V monofont="DejaVu Sans Mono" -M date="Release $version - $(date "+%B %e, %Y")" --toc -f markdown -o "$pdfpath" <(echo "$text")
 
 # Remove temporary files
 cd ..
